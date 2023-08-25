@@ -8,14 +8,28 @@ sections:
   - block: hero
     content:
       title: |
-        Computational ecology
-        Research Group
+        <span style="color:white; font-size: 46px;">Computational ecology<br><span style="color:aliceblue; font-size: 16px;font-style: italic;">Research Group</span></span>
+
+        
       image:
-        filename: welcome.jpg
+        filename: #welcome.jpg
       text: |
         <br>
-        
-        The **Wowchemy Research Group** has been a center of excellence for Artificial Intelligence research, teaching, and practice since its founding in 2016.
+        <br>
+        <br>
+        <p><span style="color:white; font-size: 19 px;">Plant ecology,Computational biology, Metbololomic,conservation... </span>.</p>
+     
+
+    design:
+        columns: '1'
+        background:
+          image: 
+           filename: entete_group4.jpg
+           filters:
+             brightness: 1
+          parallax: false
+          position: center
+          size: cover
 
   - block: collection
     content:
@@ -35,6 +49,8 @@ sections:
     design:
       view: card
       columns: '1'
+      background:
+        color: black
   
   - block: markdown
     content:

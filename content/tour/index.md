@@ -4,11 +4,12 @@ date: 2022-10-24
 
 type: landing
 
+
 sections:
   - block: slider
     content:
       slides:
-      - title: 👋 Welcome to the group
+      - title: Welcome to the group
         content: Take a look at what we're working on...
         align: center
         background:
@@ -23,7 +24,7 @@ sections:
         align: left
         background:
           image:
-            filename: contact.jpg
+            filename: metabo.jpg
             filters:
               brightness: 0.7
           position: center
